@@ -12,13 +12,14 @@ class OtherActivity : AppCompatActivity() {
 
 
         returnToMainBtn.setOnClickListener {
-//
+
 //            val myIntent = Intent(this, MainActivity::class.java)
+//            startActivity(myIntent)
 
 
             finish()
-        }
 
+        }
 
     }
 }
